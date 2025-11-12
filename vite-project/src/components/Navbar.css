@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #7384b3;
+  color: #fff;
+  padding: 1rem;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.navbar nav {
+  margin-top: 0.5rem;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}

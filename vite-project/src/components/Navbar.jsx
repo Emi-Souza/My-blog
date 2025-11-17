@@ -1,19 +1,17 @@
-import React from 'react';
-import './Navbar.css';
+import './Navbar.css'
+import './Blog.css'
 
-function Navbar() {
+export default function Navbar(){
   return (
-    <div className='navbar'>
-        <h1>My Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">sobre</a></li>
-            </ul>
+    <header className="site-header">
+      <div className="container header-inner">
+        <h1 className="logo">Meu Blog</h1>
+        <nav className="nav">
+          <a href="#home">Início</a>
+          <a href="#posts">Posts</a>
+          <a href="#about">Sobre</a>
         </nav>
-    </div>
+      </div>
+    </header>
   )
 }
-
-export default Navbar
